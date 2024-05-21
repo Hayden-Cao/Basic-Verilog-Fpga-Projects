@@ -79,7 +79,7 @@ module double_dabble(
    add_3 a6 (
    
         .in({ 1'b0, a1_out[3], a2_out[3], a3_out[3] }),
-        .out(sa6_out)
+        .out(a6_out)
    
    );  
    
