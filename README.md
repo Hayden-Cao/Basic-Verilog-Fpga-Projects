@@ -2,7 +2,8 @@
 
 All projects were implemented on a Nexys A7-100T FPGA development board using the Vivado IDE.  
 
-Calculator - Developed a calculator that can do addition, subtraction, and multiplication. Addition and subtraction use signed numbers while multiplication uses unsigned numbers. The addition is implemented through the use of half adders and the numbers are displayed on the onboard 7-Segment displays.
+**Calculator:**  
+Developed a calculator that can do addition, subtraction, and multiplication. Addition and subtraction use signed numbers while multiplication uses unsigned numbers. The addition is implemented through the use of half adders and the numbers are displayed on the onboard 7-Segment displays.
 
 Traffic Light Controller - The traffic light controller uses 2 RGB leds that alternate between green, red, and yellow. In a 5 second time frame, the left led will be green for four seconds and yellow for 0.8 seconds, and red for the remaining 0.2 seconds. The right LED will be red for all 5 seconds. After this 5 second timeframe is over the LEDs swap roles and the right led will swap between green, yellow, and red while the left led is always red. This process will loop infinitely.
 
